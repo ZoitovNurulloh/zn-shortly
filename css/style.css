@@ -137,6 +137,15 @@ img {
 }
 
 
+/* AUTOFILL-STYLES */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--heading-color);
+  -webkit-box-shadow: 0 0 0px 40rem #ffff inset;
+}
+
 /* PLACEHOLDER STYLE */
 
 ::placeholder {
@@ -344,8 +353,13 @@ img {
 /* URL-SHORTENER-RESULTS   */
 
 .url-shortener__results {
+  display: none;
   font-size: 20px;
   line-height: 36px;
+}
+
+.url-shortener__results--open {
+  display: block;
 }
 
 .url-shortener__result {
