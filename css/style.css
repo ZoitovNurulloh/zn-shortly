@@ -67,7 +67,6 @@ img {
 
 :root {
   --heading-color:#34313D;
-  --color-bg:#3A3054;
   --color-text:#9E9AA8;
   --color-bg-light:#4B3F6B;
   --dark-bg:#232127;
@@ -394,4 +393,8 @@ input:-webkit-autofill:focus {
 
 .url-shortener__copy-button {
   min-width: 103px;
+}
+
+.url-shortener__copy-button--copied {
+  background-color: #3A3054;
 }
