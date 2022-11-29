@@ -422,6 +422,7 @@ input:-webkit-autofill:focus {
   font-size: 40px;
   line-height: 48px;
   color: var(--heading-color);
+  text-transform: capitalize;
 }
 .index-features__top-info {
   margin: 0;
@@ -490,8 +491,38 @@ input:-webkit-autofill:focus {
   color: var(--heading-color);
   font-size: 22px;
   line-height: auto;
+  text-transform: capitalize;
 }
 
 .index-feature__info {
   margin-top: 0;
+}
+
+
+/* CTA */
+
+.cta {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  background-image: url(../img/cta-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+}
+.button {
 }
