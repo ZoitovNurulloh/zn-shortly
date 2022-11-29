@@ -592,20 +592,20 @@ input:-webkit-autofill:focus {
   list-style: none;
 }
 
-.social__item:not(:last-child) {
+.socials__item:not(:last-child) {
   margin-right: 24px;
 }
 
-.social__link {
+.socials__link {
   display: flex;
   color: #fff;
 }
 
-.social__link:hover {
+.socials__link:hover {
   color: var(--color-btn);
 }
 
-.social__link:active {
+.socials__link:active {
   opacity: 0.6;
 }
 
