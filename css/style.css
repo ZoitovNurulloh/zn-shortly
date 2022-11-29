@@ -575,6 +575,7 @@ input:-webkit-autofill:focus {
 .site-footer__menu-link {
   text-decoration: none;
   color: #bfbfbf;
+  text-transform: capitalize;
 }
 
 .site-footer__menu-link:hover {
