@@ -550,7 +550,7 @@ input:-webkit-autofill:focus {
   margin-right: 100px;
 }
 
-.site-feature__menu:not(:last-child) {
+.site-footer__menu:not(:last-child) {
   margin-right: 90px;
 }
 
@@ -567,6 +567,7 @@ input:-webkit-autofill:focus {
   padding: 0;
   list-style: none;
 }
+
 .site-footer__menu-item:not(:last-child) {
   margin-bottom: 10px;
 }
